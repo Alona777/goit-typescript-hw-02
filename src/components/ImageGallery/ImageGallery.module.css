@@ -1,0 +1,19 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+  list-style: none;
+
+
+}
+
+.item {
+  flex-basis: calc((100% - 50px) / 5);
+}
+
+.gallery li:hover {
+  box-shadow: 1px 1px 1px 1px hsl(107, 12%, 31%);
+  transform: scale(1.05);
+}
